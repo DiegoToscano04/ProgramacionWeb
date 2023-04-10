@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos Usuario</title>
+</head>
+<body>
+
+     <h2>
+        Rellena tu CV
+     </h2>
+        <form action="#" method="post"> 
+         <fieldset>
+         <legend>Datos</legend>
+         Nombres <br/>
+         <input type="text" name="nombre" value="" size="25" maxlength="30" required />
+         <br/><br/>
+         Apellidos <br/>
+         <input type="text" name="apellidos" value="" size="40" maxlength="60" required/>
+         <br/><br/>
+         Contraseña <br/>
+         <input type="password" name="contraseña" value="" size="12" maxlength="10" required />
+         <br/><br/>
+         Confime contraseña <br/>
+         <input type="password" name="contraseña" value="" size="12" maxlength="10" required/>
+         <br/><br/>
+         Identificacion <br/>
+         <select name="select">
+            <option value="CC">CC</option>
+            <option value="TI">TI</option>
+            <option value="CE">CE</option>
+            <option value="CI">CI</option>
+            </select>
+            <input type="text" name="documento" required="" pattern="[0-9]+" size="10" maxlength="10"/>
+            <br/><br/>
+         Sexo <br/>
+         <input type="radio" name="sexo" value="hombre" checked="checked"/> Hombre
+         <br/>
+         <input type="radio" name="sexo" value="mujer"/> Mujer
+         <br/><br/>
+         Incluir mi foto<br/>
+         <input type="file" name="foto"/>
+         <br/><br/>
+         <input type="checkbox" name="dato" value="estudiante" checked="checked"/>Estudiante
+         <br/>
+         <input type="checkbox" name="dato" value="profesor" />Profesor
+         <br/><br/>
+         </fieldset>
+
+         <fieldset>
+            <legend>Datos Personales</legend>
+            Departamento<br/>
+            <select name="seleccionar" > 
+                <option value="seleccion">-Selecciona-</option>
+                <option value="Bogota">Bogotá</option>
+                <option value="Cundinamarca">Cundinamarca</option>
+                <option value="Santander">Santander</option>
+                <option value="ValleDelCauca">Valle del Cauca</option>
+            </select>
+            <br/><br/>
+            Fecha de nacimiento<br/>
+            <input type="text" name="dia" required="" pattern="[0-2]+" size="5" maxlength="2"/> de
+            <select name="mes">
+                <option value="enero">Enero</option>
+                <option valaue="febrero">Febrero</option>
+                <option value="marzo">Marzo</option>
+                <option value="abril">Abril</option>
+                <option value="mayo">Mayo</option>
+                <option value="junio">Junio</option>
+                <option value="julio">Julio</option>
+                <option value="agosto">Agosto</option>
+                <option value="septiembre">Septiembre</option>
+                <option value="Octubre">Octubre</option>
+                <option value="noviembre">Noviembre</option>
+                <option value="diciembre">Diciembre</option> 
+            </select> de
+         <input type="text" name="año" value="" required="" pattern="[0-4]+" size="5"  maxlength="4" /><br/><br/>
+            Temas de interés<br/>
+            <select name="temas" multiple="multiple">
+                    <option value="tema1">Administración de bases de datos</option>
+                    <option value="tema2">Análisis y programación</option>
+                    <option value="tema3">Arquitectura</option>
+                    <option value="tema4">Calidad</option>
+                    <option value="tema5">ERP, CRM, Business Intelliggnce</option>
+                    <option value="tema6">Gestión de proyectos</option>
+                    <option value="tema7">Hardware, redes y seguridad</option>
+                    <option value="tema8">Helpdesk</option>
+                    <option value="tema9">Sistemas</option>
+                    <option value="tema10">Telecomunicaciones</option>
+            </select>   
+        </fieldset>
+        <input type="submit" name="enviar" value="Guardar Cambios"/>
+        <input type="reset" name="limpiar" value="Borrar los datos introducidos"/>
+
+</form>
+</body>
+</html>
