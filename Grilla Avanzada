@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+ <title>Grilla Avanzada</title>
+ <meta charset="UTF-8">
+ <meta name="description" content="Tablas">
+</head>
+<body>
+ <div class=”titulo”>
+ <h2><strong>GRILLA AVANZADA</strong></h2>
+ </div>
+ <div class="grilla avanzada"></div>
+ <h3>Personajes de comics</h3>
+
+ <table border="1">
+    <tbody>
+ <table border="1">
+<thead>
+    <tr>
+        <th rowspan="2" style="width:150px;">Nombre</th>
+        <th colspan="2" style="width:300px;">DC</th>
+    </tr>
+    <tr>
+        <th>Identidad Secreta</th>
+        <th>Link</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Superman</th>
+            <td>Clark Kent</td>
+            <td><a href="https://es.wikipedia.org/wiki/Superman">superman</a></td>
+        </tr>
+        <tr>
+            <th>Batman</th>
+            <td>Bruce Wayne</td>
+            <td><a href="https://es.wikipedia.org/wiki/Batman">batman</a></td>
+        </tr>
+    </tbody>
+ </table>
+ <table border="1">
+    <tr>
+        <th rowspan="2" style="width:150px;">Nombre</th>
+        <th colspan="2" style="width:300px;">Marvel</th>
+    </tr>
+    <tr>
+        <th>Identidad Secreta</th>
+        <th>Link</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Capitan America</th>
+            <td>Steve Rogers</td>
+            <td><a href="https://es.wikipedia.org/wiki/Capit%C3%A1n_Am%C3%A9rica">capitanamerica</a></td>
+        </tr>
+        <tr>
+            <th>Spiderman</th>
+            <td>Peter Parker</td>
+            <td><a href="https://es.wikipedia.org/wiki/Spider-Man">spiderman</a></td>
+        </tr>
+        <tfoot >
+            <tr>
+                <td colspan="3"><a href="Lista.html">
+                    Volver
+                    </a></td>
+            </tr>
+        </tfoot>
+    </tbody>
+ </table>
+</tbody>
+
+</table>
+
+
+
+</html>
